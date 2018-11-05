@@ -5,7 +5,9 @@
 #Create Time  : 2018-11-05 10:30
 #Description  : 
 
-for i in `seq 0 2 20`
+read -t 30 -p "Please input a number: " num
+
+for i in `seq  $num`
   do
     echo $i
 done
